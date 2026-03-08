@@ -554,19 +554,49 @@
       .mockup-stage{min-height:430px}
     }
 
-    @media (max-width: 720px){
-      .hero{padding-top:34px}
-      .themes{grid-template-columns:1fr}
-      h1{font-size:2.35rem}
-      .new-price{font-size:2.5rem}
-      .product-card{padding:16px}
-      .device-phone{width:122px;right:-4px;bottom:18px}
-      .floating-card{
-        position:relative;
-        left:auto;
-        bottom:auto;
-        margin-top:14px;
-        max-width:none;
+   @media (max-width: 720px){
+  .hero{padding-top:34px}
+  .themes{grid-template-columns:1fr}
+  h1{font-size:2.35rem}
+  .new-price{font-size:2.5rem}
+  .product-card{padding:16px}
+  .btn{width:100%}
+  .hero-cta{align-items:stretch}
+
+  .mockup-stage{
+    min-height:auto;
+    display:grid;
+    gap:16px;
+    justify-items:center;
+  }
+
+  .mockup-badge{
+    position:static;
+    width:100%;
+    text-align:center;
+  }
+
+  .device-laptop{
+    max-width:320px;
+    width:100%;
+  }
+
+  .device-phone{
+    position:static;
+    transform:none;
+    width:170px;
+    margin-top:4px;
+  }
+
+  .floating-card{
+    position:static;
+    left:auto;
+    bottom:auto;
+    margin-top:0;
+    max-width:320px;
+    width:100%;
+  }
+}
       }
       .btn{width:100%}
       .hero-cta{align-items:stretch}
@@ -794,3 +824,4 @@
   </footer>
 </body>
 </html>
+
